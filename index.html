@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            margin:0px !important;
+        }
+        *{
+            font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+            color:#fff
+        }
+        .bgimg{
+            background-image:url("image1.jpg");
+            background-size: cover;
+            height:100vh;
+        }
+        .logo{
+            height:50px;
+            position: relative;
+            top:20px;
+            left:20px;
+        }
+        .img2{
+            height:200px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .button {
+            background-color: #e50914;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .topright{
+            background-color: #e50914;
+            border:none;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            border-radius: 5px;
+            color: #fff;
+            position: relative;
+            left: 1150px;
+        }
+        .container{
+            position: relative;
+            top: 100px;
+            left:100px
+        }
+        .navbar{
+            background-color: black;
+            height: 90px;
+        }
+        @media (max-width: 768px){
+            .bgimg{
+                background-image: url("image 2.jpg");
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="bgimg">
+        <div class="navbar">
+            <img class="logo"src="logo.png"/>
+            <a href="">
+                <button class="topright">Join Now</button>
+            </a>
+            <a href="">
+                <button class="topright">SignIn</button>
+            </a>
+
+        </div>
+        <div class="container">
+            <img class="img2" src="devara movie logo.png"/>
+            <h2>Devara</h2>
+            <p>Devara:Part 1 is a 2024 Indian Telugu-language action drama film[8] written and directed by Koratala Siva.</p>
+            <p> The film stars N. T. Rama Rao Jr in dual roles, alongside Saif Ali Khan, Janhvi Kapoor, Prakash Raj, Srikanth and Shine Tom Chacko.</p>
+            <div class="buttons">
+                <button class="button">Play</button>
+                <button class="button secondary">More Info</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
